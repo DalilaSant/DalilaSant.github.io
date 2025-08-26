@@ -1,6 +1,6 @@
 {
-  "title": "Desarrollador Web Frontend - Felix Rangel",
-  "description": "Desarrollador Web Frontend de Estelí, Nicaragua. Especialista en HTML5, CSS5, JavaScript ES6+, Node.js y WordPress.",
+  "title": "Ingeniera en Sistemas - Dalila Santiago",
+  "description": "Actualmente estoy aprendiendo más sobre redes, ciberseguridad, desarrollo web y cloud. Mis tecnologias son HTML5, CSS5, Javascript, PHP, MySQL.",
   "navbar": [
     {
       "label": "Inicio",
@@ -21,28 +21,41 @@
   ],
   "hero": {
     "job_availability": "¡Disponible para trabajar!",
-    "title": "¡Hola soy Felix Rangel!",
-    "job_title": "<strong>Desarrollador Web Frontend</strong> de Estelí, Nicaragua.",
-    "description": "Especialista en HTML5, CSS5, JavaScript ES6+, Node.js y WordPress.",
+    "title": "¡Hola soy Dalila Santiago!",
+    "job_title": "<strong>Ingeniera en Sistemas</strong>, de Tampico, MX.",
+    "description": "Actualmente estoy aprendiendo más sobre redes, ciberseguridad, desarrollo web y cloud. Mis tecnologias son HTML5, CSS5, Javascript, PHP, MySQL.",
     "cta": "Contactame"
   },
   "experience": {
     "title": "Experiencia laboral",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["CICEND MEXICO", "SAT Tampico","C&A","Grupo Comercial DSW"],
       "jobs_description": [
         {
           "title": "Desarrollador Web Frontend",
-          "time": ["Dic 2021"],
-          "description": "Creo sitios web con diseños modernos y aplicando buenas prácticas de UI/UX. También me encargo de rediseñar, optimizar el posicionamiento SEO, aumentar las medidas de seguridad y optimizar el rendimiento de velocidad de sitios web, para aumentar la taza de conversión y las visitas.",
+          "time": ["Dic 2024","Mar 2025"],
+          "description": "Trabaje en Cicend, donde desarrollé su página web desde cero. Mis responsabilidades: estructurar el contenido con HTML y CSS, aplicar PHP y MySQL para manejar la base de datos, asegurar que el sitio fuera responsivo y se adaptara correctamente tanto a dispositivos móviles como a pantallas grandes mediante media queries. Además, implementé un buscador de folios para que los usuarios pudieran verificar sus certificaciones en línea",
           "list": ["Diseño de sitios web", "Optimización de sitios web"]
         },
         {
-          "title": "Desarrollador Web en WordPress",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "Me encargué de desarrollar sitios web en WordPress para clientes de Nicaragua, durante mi tiempo en la agencia aporté mi conocimiento en seguridad web aumentando las medidas y disminuyendo las brechas de seguridad en WordPress, configurando plugins y estableciendo cabeceras HTTP como Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+          "title": "Residencia Profesional",
+          "time": ["Jul 2024", "En 2025"],
+          "description": "Apoyé en el área de servicios al contribuyente realizando la digitalización, organización y validación de documentos oficiales, contribuyendo a mejorar tiempos en los procesos internos. Desarrollé habilidades en gestión de archivos, atención al detalle y manejo de herramientas digitales.",
+          "list": ["Digitalizacion", "Optimización procesos internos"]
+        },
+        {
+          "title": "Cajera Temporada",
+          "time": ["Oct 2024","Dic 2024"],
+          "description": "Brindé atención al cliente y manejo de caja, realizando cobros en efectivo y con terminal bancaria, asegurando exactitud y un servicio ágil",
+          "list": ["Atencion al Cliente", "Trabajo en Equipo"]
+        },
+        {
+          "title": "Cajera",
+          "time": ["Nov 2021", "Dic 2022"],
+          "description": "Responsable de la cobranza y registro de ventas, así como del manejo de efectivo y tarjetas. Fomenté un servicio al cliente eficiente, manteniendo precisión en operaciones de caja y apoyo en piso de venta cuando fue requerido.",
+          "list": ["Atencion al Cliente", "Trabajo en Equipo"]
         }
+
       ]
     }
   },
@@ -50,77 +63,86 @@
     "title": "Proyectos",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "La primer plataforma para conocer los horarios de las terminales de autobuses interlocales del municipio de Estelí, Nicaragua.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "title": "Pagina Web Cicend Mexico",
+        "description": "Desarrollo e implementación de página web para la empresa Cicend, ademas de llevar a cabo la configuración básica de dominio y BDD.",
+        "image": "/src/images/projects/cicend.png",
+        "techs": ["HTML", "CSS", "JavaScript", "PHP"],
         "code": "Código",
-        "preview": "Vista previa"
+        "preview": "Vista previa",
+        "repo":"https://github.com/DalilaSant/SitioWebCicend",
+        "previewUrl":"https://dalilasant.github.io/SitioWebCicend/"
+
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
+        "title": "ClouD Streaming",
+        "description": "ClouD Streaming es un proyecto universitario de octavo semestre (2024) que consiste en una página web de películas y series. El enfoque principal del proyecto es el frontend, utilizando HTML, CSS y Bootstrap para crear una interfaz atractiva y responsiva. ⚠️ Proyecto en desarrollo, la parte de backend y funcionalidades avanzadas están mínimamente implementadas. Muestra principalmente la maquetación y diseño.",
+        "image": "/src/images/projects/peliculas.png",
+        "techs": ["HTML", "CSS", "JavaScript"],
         "code": "Código",
-        "preview": "Vista previa"
+        "preview": "Vista previa",
+        "repo":"https://github.com/DalilaSant/ClouD-Streaming",
+        "previewUrl":"https://dalilasant.github.io/ClouD-Streaming/"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "title": "Encriptador de Texto",
+        "description": "Aplicación web desarrollada como parte del Challenge de Alura Latam. La herramienta permite: Encriptar un texto a partir de un algoritmo simple de sustitución de letras, desencriptar un texto previamente encriptado, Copiar fácilmente el resultado generado, El objetivo es practicar HTML, CSS y JavaScript, aplicando lógica de programación y manipulación del DOM.",
+        "image": "/src/images/projects/encriptador.png",
         "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
+          "HTML",
+          "JavaScript",
+          "CSS"
         ],
         "code": "Código",
-        "preview": "Vista previa"
+        "preview": "Vista previa",
+        "repo":"https://github.com/DalilaSant/challenger",
+        "previewUrl":"https://dalilasant.github.io/challenger/"
+      },
+      {
+        "title": "Numero Secreto",
+        "description": "Juego del Número Secreto es un juego dentro de una página web como practica por parte de Alura Latam, donde el sistema genera un número aleatorio entre 1 y 10 pero este número es secreto. Para ganar, el usuario debe intentar adivinar el número ingresando el suyo en la caja de texto.",
+        "image": "/src/images/projects/numsecr.png",
+        "techs": [
+          "JavaScript",
+          "CSS",
+          "HTML"
+        ],
+        "code": "Código",
+        "preview": "Vista previa",
+        "repo":"https://github.com/DalilaSant/juego-secreto2025",
+        "previewUrl":"https://dalilasant.github.io/juego-secreto2025/"
       }
     ]
   },
   "contributions": {
-    "title": "Contribuciones",
+    "title": "Escolaridad/Certificaciones",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
+        "src": "/src/images/contributions/ita.jpg",
+        "alt": "TECNM Instituto Tecnologico de Altamira",
+        "title": "TECNM Instituto Tecnologico de Altamira",
+        "description": "Egresada de la carrera de Ingeniería en Sistemas Computacionales por el Instituto Tecnológico de Altamira (2020-2024)",
+        "techs": ["HTML", "CSS", "JavaScript", "PHP"]
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
+        "src": "/src/images/contributions/google.jpg",
+        "alt": "Certificado Google Ciberseguridad",
+        "title": "Certificado Google Ciberseguridad",
+        "description": "Completé el programa de Google Cybersecurity Certificate a través de Coursera, donde desarrollé habilidades en análisis de riesgos, gestión de incidentes, fundamentos de seguridad informática.",
+        "techs": ["HTML"]
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
+        "src": "/src/images/contributions/one.png",
+        "alt": "Alura Latam y Oracle Next Education",
+        "title": "Alura Latam y Oracle Next Education",
+        "description": "Participé en el programa Formación Principiante en Programación de Alura Latam y Oracle Next Education, en el cual reforcé mis conocimientos en HTML, CSS y JavaScript y buenas prácticas de codificación.",
+        "techs": ["HTML", "CSS", "JavaScript"]
       }
     ]
   },
   "about": {
     "title": "Sobre mí",
-    "subtitle": "Soy mod de Midudev y ManzDev pero más feliz me siento siendo mod de AnaRangel",
-    "description": "Soy un Desarrollador Web Frontend y WordPress con más de 3 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript ES6+ y WordPress. Manejo frameworks como React y Astro, y soy experto en constructores visuales de WordPress, además de tener un fuerte conocimiento técnico en Core Web Vitals, lo que me convierte en un profesional apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
+    "subtitle": "👩‍💻 Ingeniera en Sistemas <br>🚀 Code. Learn. Improve. Repeat.",
+    "description": "Egresada de la carrera de Ingeniería en Sistemas Computacionales, con conocimientos en desarrollo web, bases de datos y soporte técnico. He complementado mi formación académica con cursos de prestigio internacional, como el Certificado en Ciberseguridad de Google y el programa Principiante en Programación de Alura & Oracle Next Education. Cuento con experiencia práctica en el desarrollo de páginas web gracias a mi colaboración con la empresa Cicend, donde participé en la creación y gestión de sitios adaptados a sus necesidades. Manejo lenguajes como HTML, CSS, JavaScript, PHP y Java, además de conocimientos en entornos como XAMPP, Linux y Astro. Me caracterizo por ser una persona responsable, organizada, con iniciativa y con gran interés en seguir aprendiendo y especializándome."
   },
   "contact": {
     "title": "¿Listo para dar vida a tus ideas?",

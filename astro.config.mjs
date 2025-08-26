@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config'
 import { URL } from './src/data/constants'
 
+
 import tunnel from 'astro-tunnel'
 import icon from 'astro-icon'
 import { astroImageTools } from 'astro-imagetools'
@@ -9,9 +10,12 @@ import sitemap from 'astro-sitemap'
 import playformCompress from '@playform/compress'
 import compressor from 'astro-compressor'
 
+
 // https://astro.build/config
 export default defineConfig({
-  site: URL,
+
+  site: "https://DalilaSant.github.io",
+  output: "static",
   server: {
     host: true
   },

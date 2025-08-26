@@ -10,12 +10,10 @@ interface Props {
   title: string
   description: string
   techs: string[]
-  repo: string
-  repoLabel: string
-  commits: string
+
 }
 
-const { src, alt, title, description, techs, repo, repoLabel, commits } =
+const { src, alt, title, description, techs } =
   Astro.props
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
@@ -29,7 +27,7 @@ if (!images[src])
 
 <section class="card-contributions">
   <div>
-    <a href={repo}>
+    <a href="#">
       <Picture
         src={images[src]()}
         alt={alt}
@@ -40,7 +38,7 @@ if (!images[src])
       />
     </a>
   </div>
-  <h3><a href={repo}>{title}</a></h3>
+  <h3><a href="#">{title}</a></h3>
   <p>
     {description}
   </p>
@@ -58,18 +56,19 @@ if (!images[src])
       })
     }
   </div>
+  <!--
   <div class="links">
-    <a href={repo}>
+    <a href="#">
       <Icon name="github" size={16} />
-      {repoLabel}
+      Repository
     </a>
-    <a href={commits}>
+    <a href="#">
       <Icon name="link" size={16} />
       Commits
     </a>
   </div>
 </section>
-
+-->
 <style>
   .card-contributions {
     background-color: var(--bg-card-contributions);

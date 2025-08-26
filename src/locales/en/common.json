@@ -1,6 +1,6 @@
 {
-  "title": "Web Frontend Developer - Felix Rangel",
-  "description": "Web Frontend Developer from Esteli, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+  "title": "Systems Engineer - Dalila Santiago",
+  "description": "I am currently learning more about networking, cybersecurity, web development and cloud. My technologies are HTML5, CSS5, Javascript, PHP, MySQL.",
   "navbar": [
     {
       "label": "Home",
@@ -21,27 +21,39 @@
   ],
   "hero": {
     "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
-    "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
-    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+    "title": "Hello I'm Dalila Santiago!",
+    "job_title": "<strong>Systems Engineer</strong>, from Tampico, MX.",
+    "description": "I am currently learning more about networking, cybersecurity, web development and cloud. My technologies are HTML5, CSS5, Javascript, PHP, MySQL.",
     "cta": "Contact me"
   },
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["CICEND MEXICO", "SAT Tampico","C&A","Grupo Comercial DSW"],
       "jobs_description": [
         {
           "title": "Web Frontend Developer",
-          "time": ["Dec 2021"],
-          "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
+          "time": ["Dec 2024","Mar 2025"],
+          "description": "I worked at Cicend, where I developed their website from scratch. My responsibilities: structure the content with HTML and CSS, apply PHP and MySQL to manage the database, ensure that the site was responsive and correctly adapted to both mobile devices and large screens through media queries. Additionally, I implemented a folio finder so that users could verify their certifications online",
           "list": ["Design of websites", "Optimization of websites"]
         },
         {
-          "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Professional Residence",
+          "time": ["Jul 2024", "Jan 2025"],
+          "description": "I supported the area of taxpayer services by digitizing, organizing and validating official documents, contributing to improving times in internal processes. I developed skills in file management, attention to detail and use of digital tools",
+          "list": ["Digitization", "Optimization of internal processes"]
+        },
+        {
+          "title": "Season Cashier",
+          "time": ["Oct 2024","Dec 2024"],
+          "description": "I provided customer service and cash management, making payments in cash and with a bank terminal, ensuring accuracy and agile service",
+          "list": ["Customer Service", "Teamwork"]
+        },
+        {
+          "title": "Cashier",
+          "time": ["Nov 2021", "Dec 2022"],
+          "description": "Responsible for collection and sales registration, as well as cash and card handling. I encouraged efficient customer service, maintaining accuracy in cashier operations and sales floor support when required",
+          "list": ["Customer Service", "Teamwork"]
         }
       ]
     }
@@ -50,77 +62,87 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "title": "Pagina Web Cicend Mexico",
+        "description": "Development and implementation of a website for the Cicend company, in addition to carrying out the basic domain and BDD configuration.",
+        "image": "/src/images/projects/cicend.png",
+        "techs": ["HTML", "CSS", "JavaScript", "PHP"],
         "code": "Code",
-        "preview": "Preview"
+        "preview": "Preview",
+        "repo": "https://github.com/DalilaSant/SitioWebCicend",
+        "previewUrl": "https://dalilasant.github.io/SitioWebCicend/"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
+        "title": "ClouD Streaming",
+        "description": "ClouD Streaming is a university project from the eighth semester (2024) that consists of a website for movies and series. The main focus of the project is the frontend, using HTML, CSS, and Bootstrap to create an attractive and responsive interface. ⚠️ Project in development: The backend and advanced functionalities are minimally implemented. It mainly showcases the layout and design.",
+        "image": "/src/images/projects/peliculas.png",
+        "techs": ["HTML", "CSS", "JavaScript"],
         "code": "Code",
-        "preview": "Preview"
+        "preview": "Preview",
+        "repo":"https://github.com/DalilaSant/ClouD-Streaming",
+        "previewUrl":"https://dalilasant.github.io/ClouD-Streaming/"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Calculadora Payoneer Nicaragua allows you to calculate precisely and quickly the rates and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "title": "Text Encrypter",
+        "description": "Web application developed as part of the Alura Latam Challenge. The tool allows: Encrypt text using a simple letter substitution algorithm, decrypt previously encrypted text, Easily copy the generated result, The objective is to practice HTML, CSS and JavaScript, applying programming logic and DOM manipulation.",
+        "image": "/src/images/projects/encriptador.png",
         "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
+          "HTML",
+          "CSS",
+          "JavaScript"
         ],
         "code": "Code",
-        "preview": "Preview"
+        "preview": "Preview",
+        "repo":"https://github.com/DalilaSant/challenger",
+        "previewUrl":"https://dalilasant.github.io/challenger/"
+      },
+      {
+        "title": "Secret Number",
+        "description": "Secret Number Game is a game within a web page as practiced by Alura Latam, where the system generates a random number between 1 and 10 but this number is secret. To win, the user must try to guess the number by entering theirs in the text box.",
+        "image": "/src/images/projects/numsecr.png",
+        "techs": [
+          "JavaScript",
+          "CSS",
+          "HTML"
+        ],
+        "code": "Code",
+        "preview": "Preview",
+        "repo":"https://github.com/DalilaSant/juego-secreto2025",
+        "previewUrl":"https://dalilasant.github.io/juego-secreto2025/"
       }
     ]
   },
   "contributions": {
-    "title": "Contributions",
+    "title": "Schooling/Certifications",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
+        "src": "/src/images/contributions/ita.jpg",
+        "alt": "TECNM Instituto Tecnologico de Altamira",
+        "title": "TECNM Instituto Tecnologico de Altamira",
+        "description": "Graduated from the Computer Systems Engineering degree from the Altamira Technological Institute (2020-2024).",
+        "techs": ["HTML", "CSS", "JavaScript", "PHP"]
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
+        "src": "/src/images/contributions/google.jpg",
+        "alt": "Google Cybersecurity Certificate",
+        "title": "Google Cybersecurity Certificate",
+        "description": "I completed the Google Cybersecurity Certificate program through Coursera, where I developed skills in risk analysis, incident management, computer security fundamentals.",
+        "techs": ["HTML"]
+
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "src": "/src/images/contributions/one.png",
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
+        "description": "I participated in the Beginner Programming Training program of Alura Latam and Oracle Next Education, in which I reinforced my knowledge in HTML, CSS and JavaScript and good coding practices",
+        "techs": ["HTML", "CSS", "JavaScript"]
+
       }
     ]
   },
   "about": {
     "title": "About me",
-    "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "I am a Frontend Web Developer and WordPress Developer with over 3 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript ES6+ and WordPress. I handle frameworks such as React and Astro, and I am an expert in WordPress visual builders, in addition to having a strong technical knowledge in Core Web Vitals, which makes me a passionate and highly qualified professional for any web development project."
+    "subtitle": "👩‍💻 Systems Engineer <br>🚀 Code. Learn. Improve. Repeat.",
+    "description": "Graduated from the Computer Systems Engineering degree, with knowledge in web development, databases and technical support. I have complemented my academic training with internationally prestigious courses, such as the Google Cybersecurity Certificate and the Alura & Oracle Next Education Programming Beginner program. I have practical experience in developing web pages thanks to my collaboration with the company Cicend, where I participated in the creation and management of sites adapted to your needs. I use languages such as HTML, CSS, JavaScript, PHP and Java, as well as knowledge of environments such as XAMPP, Linux and Astro. I am characterized by being a responsible, organized person, with initiative and with great interest in continuing to learn and specialize"
   },
   "contact": {
     "title": "Ready to make your dreams come true?",
