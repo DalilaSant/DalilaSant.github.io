@@ -96,3 +96,4 @@ Descubre las principales integraciones de Astro utilizadas en este proyecto:
 ---
 
 Diseñado con ❤️ por [Ana Rangel](https://www.linkedin.com/in/ux-ana-rangel) y desarrollado con 💙 por [Felix Icaza](https://felixicaza.com).
+" " 
