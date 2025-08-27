@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config'
 import { URL } from './src/data/constants'
 
+import { resolve } from 'path' // ¡AGREGA ESTA SECCIÓN!
+
 import tunnel from 'astro-tunnel'
 import icon from 'astro-icon'
 import { astroImageTools } from 'astro-imagetools'
@@ -22,6 +24,16 @@ export default defineConfig({
     defaultStrategy: 'viewport'
   },
   compressHTML: false,
+
+  // ¡AGREGA ESTA SECCIÓN!
+  vite: {
+    resolve: {
+      alias: {
+        '@images': resolve('./src/images')
+      }
+    }
+  },
+
   integrations: [
     tunnel(),
     icon(),
